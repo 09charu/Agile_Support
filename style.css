@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+                                      
+
+                                                 /* navigation bar start */
+.navbar{ 
+    background-color:aliceblue;
+    height:9vh;
+    box-shadow: 0.1rem .2rem rgba(0, 0, 0,0.2);
+    width:100vw;
+    position:sticky;
+    
+}
+.agilelogo{
+    height:3.5rem;
+    width:3.5rem;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 210, 210);
+    margin-bottom: 1rem;
+}
+.agilesupportparah1{
+    font-size:1.3rem;
+    margin-left:1rem;
+   
+    
+}
+.agilesupportparap{
+    font-size:.8rem;
+    margin-left:1rem;
+    margin-bottom: .5rem;
+}
+.navcontainer{
+    display:flex;
+    flex:row;
+    justify-content: space-between;
+}
+.navmargin1{
+    margin-left:90%;
+    margin-top: 1%;
+}
+.navmargin2{
+    margin-left:7%;
+    margin-top:1%
+}
+.navbutton{
+    width:6rem;
+    height:2.5rem;
+    background-color: rgb(180, 255, 243);
+    border-style: solid;
+    border-width:2px;
+    border-color:rgb(0, 167, 128);
+    margin-left:7%;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+.navmargin3{
+    margin-right:7%
+}
+.navmargin1 h6:hover{transform: scale(1.2);
+transition-duration: 300ms;
+color:black}
+.new:hover {transform: scale(1.15);
+    transition-duration: 300ms;
+}
+.navmargin2 h6:hover{transform: scale(1.2);
+    transition-duration: 300ms;}
+.navbutton:hover{
+    background-color:rgb(0, 167, 128);
+    border-width: 0px;
+    color:#fff;
+    transition-duration: 300ms;
+}  
+
+                                                  /* first part */
+
+
+
+.section{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+   
+     
+}
+.section img{
+    margin-left: 10px;
+    height: 430px;
+    
+}   
+.section h1{
+    margin-top: 100px;
+    margin: 0;
+    color: #0a0a0a;
+}
+.section p{
+    margin-top: 20px;
+    color: #0a0a0a;
+}
+button{
+    color: #fbf8fa;
+    background-color: #05a2b0;
+    width: 45%;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 35%;
+}
+button:hover{
+    transform:scale(1.1);
+} 
+/* @mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+$animationSpeed:7s;
+
+// Animation
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+
+// Styling
+.slider {
+	background: white;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height: 100px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 99vw;
+	
+	&::before,
+	&::after {
+		@include white-gradient;
+		content: "";
+		height: 100px;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+	}
+	
+	&::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+
+	&::before {
+		left: 0;
+		top: 0;
+	}
+	
+	.slide-track {
+		animation: scroll $animationSpeed linear infinite;
+		display: flex;
+		width: calc(250px * 14);
+	}
+	
+	.slide {
+		height: 100px;
+		width: 250px;
+	}
+} */  
+
+
+                                                     /* second part */
+.costom h2{
+    margin-top: 60px;
+    margin-left: 40px;
+    text-align: center;
+    color: #0a0a0a;
+}
+.costom p{
+    margin-bottom: 100px;
+    color: #0a0a0a;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.CSD img{
+    width: 95%;
+    margin-left: 25px;
+    /* margin-right: 25px; */
+    margin-bottom: 3%;
+
+}
+.btn-group{
+    margin-left: 3%;
+     
+
+}  
+
+
+                                          /* third part */
+
+
+.section1{
+    background-color: #e7f6fa;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+   
+     
+}
+.section1 img{
+    margin-left: 10px;
+    height: 350px;
+    
+}   
+.section1 h2{
+     
+    margin-bottom: 10px;
+    margin: 0;
+    color: #0a0a0a;
+}
+.section1 p{
+    margin-top: 20px;
+    color: #0a0a0a;
+}
+button{
+    color: #fbf8fa;
+    background-color: #05a2b0;
+    width: 40%;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 3%;
+}
+button:hover{
+    transform:scale(1.1);
+}
+                                               /* forth part  */
+
+
+.section3 .text h2{
+    margin-left: 30%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    display: flex;
+
+
+}
+.threebox{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.col{
+    
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0,0.1);
+    cursor: pointer;
+    transition: 0.2s;
+    WIDTH: 100px;
+}
+.col:hover{
+    transform:scale(0.9);
+
+}
+                                          
+
+                                     /* fifth part */
+
+
+.section4{
+    background-color:  #e7f6fa;
+}
+.section4 .text h2{
+   
+    margin-left: 18%;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    
+    display: flex;
+}
+.scrollbox img{
+    border-radius: 10px;
+}
+.scrollbox .col{
+    background-color: #fff;
+    width: 60%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+                                                     
+
+                                          /* sixth part */
+
+
+
+.section5{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+    margin-top: 40px;
+     
+}
+.section5 img{
+    margin-left: 10px;
+    height: 350px;
+    width: 500px;
+    
+}   
+.section5 h2{
+     
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: #0a0a0a;
+}
+.section5 p{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #0a0a0a;
+}
+button{
+    color: #fbf8fa;
+    background-color: #05a2b0;
+    width: 40%;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 3%;
+}
+button:hover{
+    transform:scale(1.1);
+} 
+
+    
+    
+
+
